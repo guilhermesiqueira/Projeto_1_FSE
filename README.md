@@ -23,5 +23,9 @@ make run
 ![Captura de Tela 2021-03-21 às 00 01 41](https://user-images.githubusercontent.com/30915713/111892273-a343c180-89d8-11eb-9e95-af5f99a2f20d.png)
 
 ### Screenshot da aplicação
-![Captura de Tela 2021-03-21 às 00 39 32](https://user-images.githubusercontent.com/30915713/111892876-f4a27f80-89dd-11eb-9839-6dd708b6596c.png)
+![Captura de Tela 2021-03-21 às 00 52 18](https://user-images.githubusercontent.com/30915713/111894241-f2452300-89e7-11eb-90b9-39f0e44773b7.png)
+
+![Captura de Tela 2021-03-21 às 00 53 40](https://user-images.githubusercontent.com/30915713/111894245-f96c3100-89e7-11eb-96e0-9ebb2fbb4b92.png)
+
+![Captura de Tela 2021-03-21 às 00 54 18](https://user-images.githubusercontent.com/30915713/111894249-012bd580-89e8-11eb-9777-560ec521eaed.png)
 
