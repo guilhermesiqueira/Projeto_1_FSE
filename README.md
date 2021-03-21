@@ -21,3 +21,7 @@ make run
 
 #### Gráfico Atuadores
 ![Captura de Tela 2021-03-21 às 00 01 41](https://user-images.githubusercontent.com/30915713/111892273-a343c180-89d8-11eb-9e95-af5f99a2f20d.png)
+
+### Screenshot da aplicação
+![Captura de Tela 2021-03-21 às 00 39 32](https://user-images.githubusercontent.com/30915713/111892876-f4a27f80-89dd-11eb-9839-6dd708b6596c.png)
+
