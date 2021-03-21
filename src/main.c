@@ -10,7 +10,7 @@
 #include <signal.h>
 #include <unistd.h>
 
-#define SECOND 1000000
+#define SECOND 800000
 
 
 int flag = 0;
@@ -46,9 +46,8 @@ void main_thread() {
         lcdLoc(0xC0);
         typeln("TR:");
         typeFloat(reference);
-
         if(flag_imprime == 1) {
-            printf("TI: %4.2f \t TE: %4.2f \t TR: %4.2f\n", internal, external, reference);
+            printf("\nTI: %4.2f \t TE: %4.2f \t TR: %4.2f", internal, external, reference);
         }
         
         if(flag == 1) {
@@ -77,8 +76,7 @@ void menu_thread() {
     while(1) {
         int option = 0;
         float reference = 0.0;
-        flag_imprime = 0;
-        
+        // flag_imprime = 0;
         system("clear");
         printf("Escolha uma opção: \n");
         printf("1 - Atualizar referencia via terminal.\n");
@@ -96,11 +94,10 @@ void menu_thread() {
                 break;
             case 3:
                 system ("tput clear");
-                usleep(1000000);
-                printf("PRESSIONE ENTER PARA VOLTAR AO MENU ANTERIOR!!!");
                 flag_imprime = 1;
                 fflush(stdin);
                 while ((c = getchar()) != '\n' && c != EOF) { }
+                // break;
 
         }
     }
