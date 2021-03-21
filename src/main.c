@@ -78,14 +78,15 @@ void menu_thread() {
         float reference = 0.0;
         // flag_imprime = 0;
         system("clear");
-        printf("Escolha uma opção: \n");
+        printf("\nEscolha uma opção: \n");
         printf("1 - Atualizar referencia via terminal.\n");
         printf("2 - Atualizar referencia via potenciometro.\n");
         printf("3 - Visualizar dados dos sensores.\n");
         scanf("%d", &option);
-        int c;
+
         switch(option) {
             case 1:
+                printf("Digite o novo valor de referencia: \n");
                 scanf("%f", &reference);
                 pid_referencia_menu(reference);
                 break;
@@ -95,8 +96,10 @@ void menu_thread() {
             case 3:
                 system ("tput clear");
                 flag_imprime = 1;
-                fflush(stdin);
-                while ((c = getchar()) != '\n' && c != EOF) { }
+                printf("Pressione [ENTER] para voltar ao menu anterior!");
+                while(getchar()!='\n');
+                getchar();
+                flag_imprime = 0;
                 // break;
 
         }
